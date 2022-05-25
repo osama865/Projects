@@ -3,7 +3,7 @@ const projetcs = [
         name: "Life-Advise",
         description: "offline first , full featured quotes generator web app to get some wonderful advice about life, success, money ...etc",
         image: "../images/life.png",
-        liveLink: "https://life-advice-beta.meteorapp.com/",
+        liveLink: "https://life-advise.netlify.app/",
         SourceLink: "https://github.com/osama865/life-advice-client",
     },
     {
