@@ -8,10 +8,17 @@ const projetcs = [
     },
     {
         name: "netflix clone",
-        description: "Complete Netflix clone based on react and firebase",
+        description: "Complete Netflix clone with filters to search films and series, Based on ReactJs and firebase to handle database and authentication.",
         image: "../images/netflix.png",
         liveLink: "https://os-netflix.netlify.app/",
-        SourceLink: "https://github.com/osama865/Netflix",
+        SourceLink: "https://os-netflix.netlify.app/",
+    },
+    {
+        name: "Restaurant website",
+        description: "Attractive Restaurant website with all pages that needed by your customers, menu, about, gallary and contact. So they can found everything about your restaurant.",
+        image: "../images/restaurant.png",
+        liveLink: "https://o-restaurant.netlify.app/",
+        SourceLink: "https://github.com/osama865/assemble-rest",
     },
     {
         name: "Basic Amazon Clone",
@@ -21,18 +28,18 @@ const projetcs = [
         SourceLink: "https://github.com/osama865/Amazon",
     },
     {
+        name: "Portfolio",
+        description: "My personal Website that contains all my informations and projects, ",
+        image: "../images/portoflio.png",
+        liveLink: "https://o-portfolio.netlify.app/",
+        SourceLink: "https://github.com/osama865/Projects",
+    },
+    {
         name: "rental hotel rooms",
         description: "featured hotel rooms web app to look for a rooms to rent for your holiday",
         image: "../images/hotel.png",
         liveLink: "https://o-hotel.netlify.app/",
         SourceLink: "https://github.com/osama865/Hotel",
-    },
-    {
-        name: "Galarey",
-        description: "simple Galarey app to store your images there and share them",
-        image: "../images/firegram.png",
-        liveLink: "https://0firegram.netlify.app/",
-        SourceLink: "https://github.com/osama865/Galarey",
     },
     {
         name: "Chat web app",
@@ -42,6 +49,13 @@ const projetcs = [
         SourceLink: "https://github.com/osama865/Chat-Room-client",
     },
     {
+        name: "Galarey",
+        description: "simple Galarey app to store your images there and share them",
+        image: "../images/firegram.png",
+        liveLink: "https://0firegram.netlify.app/",
+        SourceLink: "https://github.com/osama865/Galarey",
+    },
+    {
         name: "Basic weather app",
         description: "Basic weather app to get the weather status about specific country or city",
         image: "../images/weather.png",
@@ -49,11 +63,25 @@ const projetcs = [
         SourceLink: "https://github.com/osama865/PWA_Weather",
     },
     {
+        name: "simple recipes PWA",
+        description: "simple app to save food recipes and share it with your friends",
+        image: "../images/food.png",
+        liveLink: "https://o-pwa-recipes.netlify.app/",
+        SourceLink: "https://github.com/osama865/PWA_FOOD_APP",
+    },
+    {
         name: "GYM landing page",
         description: "nice landing page for your GYM",
         image: "../images/gym.png",
         liveLink: "https://max-gym.netlify.app/",
         SourceLink: "https://github.com/osama865/GYM",
+    },
+    {
+        name: "AOS-testing",
+        description: "Simple Website For Testing Different Types Of Animations Provided by AOS library, animation-on-scroll",
+        image: "../images/aos.png",
+        liveLink: "https://aos-testing.netlify.app/",
+        SourceLink: "#",
     },
 ]
 
@@ -64,7 +92,7 @@ const showProjects = () => {
         <div class="post">
             <img src="${image}" alt="" class="thumbnail" />
             <div class="post-preview">
-                <h6 class="post-title">${name}</h6>
+                <h4 class="post-title upper-case">${name}</h4>
                 <p class="post-intro">
                     ${description}
                 </p>

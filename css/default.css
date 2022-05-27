@@ -305,6 +305,10 @@ ul {
   box-shadow: -1px 1px 3px -1px rgba(37, 10, 10, 0.75);
 }
 
+.upper-case {
+  text-transform: capitalize;
+}
+
 .thumbnail {
   display: block;
   width: 100%;
