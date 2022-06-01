@@ -258,12 +258,29 @@ ul {
   gap: 100px;
 }
 
+.container {
+  width: 50%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
 #skills {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   background-color: var(--previewShadow);
+}
+
+.skill {
+  width: 90%;
+  background-color: var(--mainText);
 }
 
 #social_img {
@@ -284,6 +301,12 @@ ul {
   flex-direction: row;
   justify-content: center;
   gap: 50px;
+  height: 60px;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 10px;
 }
 /* blog */
 
@@ -299,10 +322,10 @@ ul {
 .post {
   border-radius: 5px;
 
-  border: 1px solid var(--borderColor);
-  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  /* border: 1px solid var(--borderColor); */
+  /* -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: -1px 1px 3px -1px rgba(37, 10, 10, 0.75);
+  box-shadow: -1px 1px 3px -1px rgba(37, 10, 10, 0.75); */
 }
 
 .upper-case {

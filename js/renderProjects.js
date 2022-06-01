@@ -88,7 +88,7 @@ const projetcs = [
 let wrapper = document.getElementById("projects")
 const showProjects = () => {
     projetcs.map(({ name, SourceLink, description, image, liveLink }) => {
-        let html = `<div>
+        let html = `
         <div class="post">
             <img src="${image}" alt="" class="thumbnail" />
             <div class="post-preview">
@@ -108,7 +108,7 @@ const showProjects = () => {
                     </div>
             </div>
         </div>
-    </div>`
+    `
 
         wrapper.innerHTML += html
     })
