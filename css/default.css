@@ -272,9 +272,9 @@ ul {
 
 #skills {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   background-color: var(--previewShadow);
 }
 
